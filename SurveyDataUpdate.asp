@@ -14,11 +14,9 @@ strGender = request("Gender")
 
 fUserID = request.form("UserID")
 fGender = request.form("Gender")
+fResponseID = request.form("ResponseID")
 
-if fUserID <> "" then
 
-  Response.write("fUserID = "&fUserID)
-End if
 
 'Response.write "Gender"
 
